@@ -17,7 +17,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(220, 220, 30);
+    
 
 }
 
@@ -46,4 +46,12 @@ body{
     padding: 8px;
     font-size: 14px;
     outline: 0;
+}
+
+.error {
+    font-size: 11px;
+    background-color: rgb(255, 2, 2);
+    color: rgb(251, 255, 255);
+    padding: 4px;
+    border-radius: 5px;
 }

@@ -15,18 +15,18 @@
         <div class="rightside">
             <h1>Crie uma conta</h1>
 
-            <form method="post">
+            <form method="post"  action="cadastro.php" class="a1validator">
                 <Label>
                     Digite seu nome:<br/>
-                    <input type="text" name="name">
+                    <input type="text" name="name" data-rules="required|min=2" />
                 </Label>
                 <Label>
                     Digite seu email:<br/>
-                    <input type="text" name="email">
+                    <input type="text" name="email" data-rules="required|email" />
                 </Label>
                 <Label>
                     Digite sua senha:<br/>
-                    <input type="password" name="password">
+                    <input type="password" name="password" data-rules="required" />
                 </Label>
                 <Label>
                     <input type="submit" value="Cadastrar">
